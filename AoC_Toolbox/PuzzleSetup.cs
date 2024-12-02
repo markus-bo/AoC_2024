@@ -10,10 +10,10 @@ namespace AoC_Toolbox
     {
         public static void Solve(Func<string[], object?> solutionPart1, Func<string[], object?> solutionPart2)
         {
-            var input0 = GetData($"{Environment.CurrentDirectory}\\Input0.txt");
-            var answer0P1 = GetData($"{Environment.CurrentDirectory}\\Answer0_Part1.txt");
-            var answer0P2 = GetData($"{Environment.CurrentDirectory}\\Answer0_Part2.txt");
-            var input1 = GetData($"{Environment.CurrentDirectory}\\Input1.txt");
+            var input0 = GetData(Path.Combine(Environment.CurrentDirectory, "Input0.txt"));
+            var answer0P1 = GetData(Path.Combine(Environment.CurrentDirectory, "Answer0_Part1.txt"));
+            var answer0P2 = GetData(Path.Combine(Environment.CurrentDirectory, "Answer0_Part2.txt"));
+            var input1 = GetData(Path.Combine(Environment.CurrentDirectory, "Input1.txt"));
 
             if (input0.Any() == false || input1.Any() == false)
             {
