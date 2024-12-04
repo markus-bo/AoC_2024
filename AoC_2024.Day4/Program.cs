@@ -12,11 +12,15 @@ internal class Solution
 
     static object? solutionPart1(string[] input)
     {
-        return null;
+        var result = 0;
+
+        return result;
     }
 
     static object? solutionPart2(string[] input)
     {
         return null;
     }
+
+
 }
